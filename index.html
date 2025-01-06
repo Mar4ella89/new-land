@@ -1,42 +1,330 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Trade CFDs on Stocks, Crypto & More</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
- <div class="page">
-    <header class="header">
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://rsms.me/" />
+    <link rel="stylesheet" href="https://rsms.me/inter/inter.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="header">
         <div class="container">
-            <div class="header-wrapper">
-                <a href="">
-                    <img src="img/logo.png.png" alt="">
-                </a>
-                <ul class="header-list">
-                    <li>Markets</li>
-                    <li>Accounts</li>
-                    <li>About Us</li>
-                    <li>Contact Us</li>
-                    <li>Trade Now</li>
-                </ul>
-            </div>
-
+          <div class="header-wrapper">
+            <a href="" class="header-logo">
+              Quantum <span class="header-logo-part">AI</span>
+            </a>
+            <div class="header-btn">Create account</div>
+          </div>
         </div>
+      </header>
+      <main>
+        <section class="hero">
+          <div class="container">
+            <div class="hero-wrapper">
+              <div>
+                <p class="hero-title">
+                  Smart Investing That Makes You $1500 in 5 Hours And Cures
+                  Poverty
+                </p>
+                <p class="hero-text">
+                  Our smart investing can make you thousands in less than 7
+                  days, and will help cure poverty while you earn!
+                </p>
+              </div>
+              <div class="hero-media">
+                <div class="hero-video-place">
+                  <div class="video-container">
+                    <button
+                      class="invisible-button"
+                      id="showVideoButton"
+                    ></button>
+                    <video
+                      id="videoElement"
+                      width="650"
+                      height="400"
+                      controls
+                      style="display: none"
+                    >
+                      <source src="media/main.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                </div>
+                <div class="hero-img-wrapper">
+                  <img
+                    class="hero-img"
+                    src="img/com.png"
+                    width="480px"
+                    alt=""
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="balance">
+          <div class="container">
+            <div class="balance-wrapper">
+              <ul class="balance-list">
+                <li><img src="img/p1.png" alt="" /></li>
+                <li><img src="img/p2.png" alt="" /></li>
+                <li><img src="img/p3.png" alt="" /></li>
+                <li><img src="img/p4.png" alt="" /></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="problem">
+          <div class="container">
+            <h2 class="problem-title">Problem</h2>
+            <ul class="problem-list">
+              <li>
+                <div class="problem-item-num">1</div>
+                Poverty is a global issue, one which we aim to solve – forever.
+                When you invest with 250$, you’re directly helping us save
+                people’s lives – and making money!
+              </li>
+              <li>
+                <div class="problem-item-num">2</div>
+                Big corporations are the ones holding all the keys to those big
+                paychecks. With Quantum Computing, that’s no longer true. Now
+                YOU have the power to make a great income. The power that was
+                once reserve for the richest among us, is now yours.
+              </li>
+              <li>
+                <div class="problem-item-num">3</div>
+                QuantumAI is designed to make the world better. Elon developed
+                this idea as a win-win. Have loans to pay off, or a mortgage to
+                pay? Want to help people? Now you can do both.
+              </li>
+              <li>
+                <div class="problem-item-num">4</div>
+                A country’s economy is so fragile. As you saw in 2008, it only
+                takes a few people at the top to ruin it. We want to stop that
+                from happening ever again.
+              </li>
+            </ul>
+            <h2 class="solution-title">Solution</h2>
+            <p class="solution-text">
+              By using the power of Quantum Computing, you can help us take the
+              exclusivity of the top 1%, and solve 4 major problems: Develop a
+              stable, wealthy economy for all, cure poverty, level the playing
+              ground for all (not just the richest), and help you make your
+              financial dreams come true!
+            </p>
+          </div>
+        </section>
+        <section class="steps">
+          <div class="container">
+            <div class="steps-wrapper">
+              <p class="steps-title">So, what do you need to do to start?</p>
+              <ul class="steps-list">
+                <li class="steps-one steps-item">
+                  <p class="steps-subtitle">Deposit</p>
+                  <p class="steps-text">Deposit 250 Dollars.</p>
+                </li>
+                <li class="steps-two steps-item">
+                  <p class="steps-subtitle">Pick</p>
+                  <p class="steps-text">
+                    Pick the trades QuantumAI recommends (with the power of
+                    Quantum Computing!)
+                  </p>
+                </li>
+                <li class="steps-three steps-item">
+                  <p class="steps-subtitle">Withdraw</p>
+                  <p class="steps-text">
+                    Withdraw any funds in matter of hours!
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="info">
+          <div class="container">
+            <div class="info-wrapper">
+              <h2 class="info-title">
+                What Makes Quantum Computing So Good For Investing
+              </h2>
+              <p class="info-text">
+                This is the world’s first quantum computing machine; unlike your
+                home PC, this computer is smart – it makes thousands of
+                simultaneous ‘decisions’ at once. Your brain thinks one thought
+                at a time, in a sequence. Imagine if you could have thousands of
+                thoughts at once, each as clear as the other. That’s quantum
+                computing.
+              </p>
+              <p class="info-text">
+                Using that power, our quantum computing machine will help you
+                make smarter trades and make more money than you thought
+                possible. Even better, it’s designed so that you can make money
+                and help others while you profit!
+              </p>
+              <p class="info-text">
+                It finds trades by analysing differentials between stock prices
+                every nano-second that stock markets are live (and makes
+                predictions even when the markets are closed, so you’ll know
+                what’s likely to happen when they re-open). Your current
+                computer (and everyone else’s) can’t match the decision speeds
+                of this new system.
+              </p>
+              <p class="info-text">
+                Sign up, and be one of the exclusive few using this technology
+                (before everyone else gets wind of it!)
+              </p>
+            </div>
+          </div>
+        </section>
+        <section class="advisors">
+          <div class="container">
+            <h2 class="advisors-title">Advisors</h2>
+            <div class="advisors-wrapper">
+              <ul class="advisors-list">
+                <li class="advisors-item">
+                  <div class="advisors-card">
+                    <div class="advisors-img">
+                      <img
+                        class="advisors-img-hero"
+                        src="img/bezos.png"
+                        width="152px"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="advisors-info">
+                      <p class="advisors-name">Jeff Bezos:</p>
+                      <p class="advisors-text">
+                        Technology entrepreneur, investor, and philanthropist
+                      </p>
+                      <img class="advisors-in-img" src="img/div.png" alt="" loading="lazy"/>
+                    </div>
+                  </div>
+                  <div class="advisors-mid-img">
+                    <img src="img/line.png" alt="" loading="lazy"/>
+                  </div>
 
-    </header>
-    <main>
+                  <p>
+                    AI computing is the future. I’m not exaggerating when I say
+                    it will change everything. This is the early days of ai
+                    computing; not many people know about it, which means very
+                    few are using it. The few that are, are making incredibly
+                    wise (and profitable) decisions
+                  </p>
+                </li>
+                <li class="advisors-item">
+                  <div class="advisors-card">
+                    <div class="advisors-img">
+                      <img
+                        class="advisors-img-hero"
+                        src="img/gates.png"
+                        width="152px"
+                        alt=""
+                        loading="lazy"
+                      />
+                    </div>
+                    <div class="advisors-info">
+                      <p class="advisors-name">Bill Gates:</p>
+                      <p class="advisors-text">
+                        Business magnate, investor, author, philanthropist, and
+                        humanitarian
+                      </p>
+                      <img class="advisors-in-img" src="img/div.png" alt="" loading="lazy"/>
+                    </div>
+                  </div>
+                  <div class="advisors-mid-img">
+                    <img src="img/line.png" alt="" loading="lazy"/>
+                  </div>
 
-    </main>
-    <footer>
+                  <p>
+                    I know for a fact Elon has spent $3 billion of his own money
+                    to fund this program. Hats off to him for that – that’s $3
+                    billion of his own money to fund a better future for
+                    everyone, and to help others make profits that’ll help him
+                    do so! It’s a win-win, and I’m very excited to see where it
+                    goes.
+                  </p>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="partners">
+          <div class="container">
+            <h2 class="partners-title">Partners</h2>
+            <div class="partners-wrapper">
+              <ul class="partners-list">
+                <li><img src="img/ibm.png" alt="" loading="lazy"/></li>
+                <li><img src="img/msf.png" alt="" loading="lazy"/></li>
+                <li><img src="img/opa.png" alt="" loading="lazy"/></li>
+              </ul>
+            </div>
+          </div>
+        </section>
+        <section class="investor">
+          <div class="container">
+            <h2 class="investor-title">INVESTOR FEEDBACK</h2>
+            <div class="investor-wrapper">
+              <ul class="investor-list">
+                <li>
+                  <video
+                    src="media/v1.mp4"
+                    width="100%"
+                    controls
+                    poster="img/p11.png"
+                    loading="lazy"
+                  ></video>
+                </li>
+                <li>
+                  <video
+                    src="media/v2.mp4"
+                    width="100%"
+                    controls
+                    poster="img/p21.png"
+                    loading="lazy"
+                  ></video>
+                </li>
+                <li>
+                  <video
+                    src="media/v3.mp4"
+                    width="100%"
+                    controls
+                    poster="img/p31.png"
+                    loading="lazy"
+                  ></video>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </section>
+      </main>
+      <footer class="footer">
+        <div class="container">
+          <div class="footer-wrapper">
+            <a href="" class="footer-logo">
+              Quantum <span class="footer-logo-part">AI</span>
+            </a>
+            <ul class="footer-list">
+              <li class="footer-item">Website Agreement</li>
+              <li class="footer-item">Risk Disclaimer</li>
+              <li class="footer-item">Privacy Policy</li>
+              <li class="footer-item">Report Abuse</li>
+              <li>Contact Us</li>
+            </ul>
+          </div>
+        </div>
+      </footer>
+    </div>
 
-    </footer>
-
- </div>
-
-
-    
-</body>
+    <!-- Запуск видео -->
+    <script>
+        document.getElementById('showVideoButton').addEventListener('click', function() {
+      const video = document.getElementById('videoElement');
+      video.style.display = 'block'; 
+      this.style.display = 'none';  
+    });
+    </script>
+  </body>
 </html>
